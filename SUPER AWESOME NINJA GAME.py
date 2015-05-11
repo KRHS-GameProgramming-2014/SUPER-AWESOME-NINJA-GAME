@@ -81,7 +81,7 @@ while True:
                 if event.key == pygame.K_a or event.key == pygame.K_LEFT:
                     player.go("stop left")
             
-        if len(balls) < 10:
+        if len(balls) < 10000000:
             if random.randint(0, 1*60) == 0:
                 balls += [Ball("images/Ball/ball.png",
                           [random.randint(0,10), random.randint(0,10)],
