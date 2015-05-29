@@ -4,7 +4,7 @@ from PlayerBall import PlayerBall
 from HUD import Text
 from HUD import Score
 from Button import Button
-
+from Bullet import Bullet
 pygame.init()
 
 clock = pygame.time.Clock()
